@@ -12,5 +12,5 @@ def deploy_func(job,ip,sample_path)
 }
 def download_func(file_name)
 {
-  sh 'java -jar /var/lib/jenkins/workspace/${file_name}/testing.jar'
+  sh "java -jar /var/lib/jenkins/workspace/${file_name}/testing.jar"
 }
